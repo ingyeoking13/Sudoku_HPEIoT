@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( sudoku )
+set(CMAKE_MODULE_PATH "/usr/local/lib/cmake/${CMAKE_MODULE_PATH}")
+find_package( raspicam REQUIRED )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( sudoku sudoku.cc )
+target_link_libraries( sudoku ${raspicam_CV_LIBS} )

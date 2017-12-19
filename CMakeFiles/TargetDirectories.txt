@@ -1,0 +1,3 @@
+/home/pi/sudoku/CMakeFiles/rebuild_cache.dir
+/home/pi/sudoku/CMakeFiles/edit_cache.dir
+/home/pi/sudoku/CMakeFiles/sudoku.dir
