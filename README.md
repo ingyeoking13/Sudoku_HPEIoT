@@ -1,14 +1,19 @@
-참조 링크: [Sudoku Grabber]: aishack.in/tutorials/sudoku-grabber-opencv-plot
+참조 링크: aishack.in/tutorials/sudoku-grabber-opencv-plot
 # Sudoku_HPEIoT
 
 
 1. 라즈베리 파이와 카메라 모듈을 이용하여 스도쿠 문제 사진을 찍는다.
+
 2. 이미지처리 오픈소스인 OpenCV를 이용하여 이미지왜곡 해결과 칸인식 숫자인식을 한다. (C/C++로 구현, 젤어려움...)
+
 3. 성공적으로 저장된 자료인 9x9상자와 그 칸의숫자를 이용하여 재귀함수와 완전탐색 알고리즘 을활용하여....
+
 ~~4. 스도쿠문제를 해결!~~
 
 결과적으로는, 이미지로부터 숫자인식을 시키지 못 하여서 실패했다. (**kNN 구현의 실패**)
+
 C/C++로 만구현하겠다는 생각이 5주간의 프로젝트 를제 자리에 머물게했다.
+
 C++로 기계학습을 구현하는 예제는 생각보다 적었고, 참고했던 aishack 사이트의 OpenCV버전이
 차이가 많이 났기에 kNN Class 사용법이 아예 달랐다.
 
